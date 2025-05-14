@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .wrap{border: 5px solid #ddd; padding: 50px; margin-bottom: 10px;}
+        .hide{display: none;}
+    </style>
+</head>
+<body>
+    <div class="wrap">
+        <h1>텍스트 입력하기</h1>
+        <hr>
+        <h2>레드향</h2>
+        <h3>레드향 샐러드 레시피</h3>
+        <h3>상품구성</h3>
+    </div>
+    <div class="wrap">
+        <h2>p태그 , br태그</h2>
+        <p>Lorem ipsum dolor sit amet consectetur<br> adipisicing elit. Eum tempora amet nulla, <br>a iusto asperiores blanditiis ipsum,<br> est necessitatibus perspiciatis ducimus recusandae? <br>Cumque provident vel inventore voluptatum nam ea nostrum.</p>
+         <hr class="hide">
+        <h2>레드향</h2>
+        <p>껍질에 붉은 빛이 돌아 레드향이라 불린다.</p>
+        <p>레드향은 한라봉과 귤을 교배한것으로 <br>일반 귤보다 2~3배 크고 , 과육이 붉고 통통하다.</p>
+        <p>비타민 C와 비타민 P가 풍부해<br>혈액순환, 감기예방 등에 좋은 것으로 알려져있다.</p>
+    </div>
+    <div class="wrap">
+        <h2>엔티티코드</h2>
+        <p>&amp;</p>
+        <p>Lorem ipsum dolor sit amet, &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;consectetur adipisicing elit. Consequuntur culpa mollitia voluptates, nam ea impedit quasi exercitationem. Sunt voluptatibus pariatur enim, illum suscipit deserunt &nbsp;&nbsp;&nbsp;ab perferendis ut architecto beatae! Temporibus.
+            <h1>Entity 코드를 이용한 공백 문자 및 특수 문자삽입</h1>
+    <p>서울시 종로구 숭인동 현대빌라. 조지현&선생님 &lt;TEL:02-1234-1234&gt; <br> COPYRIGHT &copy; 2019 Jeehyun Publishing Group ALL RIGHTS RESERVED</p>
+        </p>
+    </div>
+    <div class="wrap">
+        <H2>텍스트 관련 요소</H2>
+        <hr>
+        <h3>blockquote - 인용문</h3>
+        <blockquote cite="https://blog.naver.com/PostView.nhn?blogId=galli&logNo=221884612824">군자는 의를 따르고 소인은 이익을 따른다<q>(君子喩於義 小人喩於利)</q></blockquote>
+        
+        <h3>strong</h3>
+        <p><strong>굵게 강조할 텍스트</strong></p>
+        <p>strong은 웹사이트에서 내용을 굵은 글자로 강조할때 사용하기</p>
+
+        <p><b>굵게 강조할 텍스트</b></p>
+        <p>b은 웹사이트에서 굵은 디자인을 할때 사용하기</p>
+
+        <h3>em, i(기울기) sub, sup(위첨자,아래첨자)</h3>
+        <p>Lorem <em>ipsum dolor sit amet,</em> consectetur adipisicing elit. Ut iusto, <i>distinctio exercitationem</i> laboriosam quae labore<sub>labore</sub> dolores quisquam qui illo atque minus recusandae cum<sup>cum</sup> cupiditate nesciunt nostrum. Corrupti optio temporibus labore.</p>
+
+        <h3>mark</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. <mark>Saepe aperiam perspiciatis officia harum,</mark> mollitia ullam deserunt fuga corporis perferendis ratione illum reprehenderit, porro dolorum ab repellendus culpa asperiores accusamus aut?</p>
+
+        <h3>meter</h3>
+        <p>독일의 가장 중심적인 와인 생산 지역인 라인가우 지역의 포도중에 리즐리 <meter value="0.81">80%</meter>, 슈페트버건드 <meter value="0.08">8%</meter>가 대표적이다.</p>
+
+        <h3>ruby, rt</h3>
+        <p><ruby>漢子 <rt>한자</rt></ruby></p>
+
+        <h3>del, ins, small</h3>
+        <del>삭제된 내용</del>
+        <ins>추가된 내용</ins>
+        <p>가격 13000원<small>부가세별도</small></p>
+
+        <h3>details</h3>
+        <details>
+            <summary>details는 세부 항목이나 추가 정보를 숨겨 넣았다가 펼쳐보여줄 수 있는 기능</summary>
+            <p>우와!!! 숨겨졌당 내용</p>
+        </details>
+    </div>
+    <div class="wrap">
+        <h2>목록만들기</h2>
+        <h3>순서 있는 목록</h3>
+        <ol>
+            <li>미키 17</li>
+            <li>히트맨2</li>
+            <li>하얼빈</li>
+            <li>검은 수녀들</li>
+            <li>캡틴 아메리카: 브레이브 뉴 월드</li>
+        </ol>
+
+        <li>미키 17</li>
+        <li>히트맨2</li>
+        <li>하얼빈</li>
+        <li>검은 수녀들</li>
+        <li>캡틴 아메리카: 브레이브 뉴 월드</li>
+
+        <h3>순서 없는 리스트</h3>
+        <h4>web design</h4>
+        <ul>
+            <li>피그마</li>
+            <li>자바스크립트</li>
+            <li>css
+                <ul>
+                    <li>style</li>
+                </ul>
+            </li>
+        </ul>
+        <h3>정의 목록 리스트</h3>
+        <dl>
+            <dt>조지현</dt>
+            <dd>학원강사이다</dd>
+        </dl>
+        <dl>
+            <dt>선물용 3kg</dt>
+            <dd>소과 13~16개</dd>
+            <dd>중과 10~12개</dd>
+        </dl>
+    </div>
+</body>
+</html>

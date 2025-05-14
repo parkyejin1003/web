@@ -1,0 +1,48 @@
+#wrap{
+    background-color: aqua;
+    height: 700px;
+    width: 700px;
+    margin: 0 auto;
+    color: blue;
+}
+header{
+    width: 100px;
+    height: 100px;
+    background-color: brown;
+    font-size: 20px;
+    line-height: 30px;
+    text-align: center;
+}
+nav{
+    width: 100px;
+    height: 100px;
+    background-color: blueviolet;
+    font-size: 20px;
+    line-height: 30px;
+    text-align: center;
+}
+main{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(43, 220, 20);
+    font-size: medium;
+    line-height: 50%;
+    text-align: center;
+}
+aside{
+    width: 100px;
+    height: 100px;
+    background-color: chocolate;
+    font-size: 24px;
+    line-height: 650px;
+    font-weight: 900;
+    color: cornflowerblue;
+}
+footer{
+    width: 20px;
+    height: 20px;
+    background-color: fuchsia;
+    font-size: 24px;
+  text-align: center;
+  line-height: 100px;
+}
